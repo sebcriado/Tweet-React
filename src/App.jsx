@@ -29,7 +29,11 @@ const DEFAULT_TWEET = [
 ]
 
 function App(){
-  let [tweets, setTweets] = useState(DEFAULT_TWEET);
+  const [tweets, setTweets] = useState(DEFAULT_TWEET);
+
+  const onDelete = (tweetId) =>{
+    
+  }
 
   const tweetLists = tweets.map(tweet => {
     return <Tweet id={tweet.id} key={tweet.id} name={tweet.name} content={tweet.content} like={tweet.like}
