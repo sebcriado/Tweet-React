@@ -35,3 +35,11 @@
   border: none;
   cursor: pointer;
 }
+
+.tweet-form{
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  gap: 8px;
+  margin-bottom: 32px;
+}
