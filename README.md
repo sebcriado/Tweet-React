@@ -1,14 +1,6 @@
 # Générateur de Tweets
 
-Ce projet est une application web basée sur React et Vite.js qui permet de générer des tweets aléatoires. Les tweets peuvent être likés et supprimés.
-
-## Fonctionnalités
-
-- Génération de tweets aléatoires : L'application génère des tweets aléatoires à partir d'un ensemble de phrases pré-définies. Chaque fois que l'utilisateur appuie sur le bouton de génération, un nouveau tweet est affiché.
-
-- Liker un tweet : Les utilisateurs peuvent liker les tweets en appuyant sur le bouton "Like". Le nombre de likes est affiché à côté de chaque tweet.
-
-- Supprimer un tweet : Les utilisateurs peuvent supprimer un tweet en appuyant sur le bouton "Supprimer". Le tweet est alors retiré de la liste des tweets affichés.
+Ce projet est une application web basée sur React et Vite.js qui permet de générer des tweets. Les tweets peuvent être likés et supprimés.
 
 ## Installation
 
